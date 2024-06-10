@@ -1,0 +1,107 @@
+{
+	"asset" : {
+		"version" : "1.0"
+	},
+	"properties" : {
+		"type" : {},
+		"gcm_name" : {},
+		"diameter(mm)" : {},
+		"lenght(m)" : {},
+		"pipetype" : {},
+		"layingyear" : {},
+		"startpoint" : {},
+		"endpoint" : {},
+		"depth(m)" : {},
+		"length(m)" : {},
+		"upstreampipeheight" : {},
+		"upstreamdiameter" : {},
+		"upstreamcorepipeheight" : {},
+		"lenght" : {},
+		"downstreampipeheight" : {},
+		"downstremdiameter" : {},
+		"downstremcorepipeheight" : {},
+		"diameter" : {},
+		"depth" : {},
+		"MIGCIdentifier" : {},
+		"MIGCCalculatedLength" : {},
+		"MI名前" : {},
+		"MIupstreampipeheight" : {},
+		"MIupstreamdiameter" : {},
+		"MIupstreamcorepipeheight" : {},
+		"MIlenght" : {},
+		"MIdownstreampipeheight" : {},
+		"MIdownstremdiameter" : {},
+		"MIdownstremcorepipeheight" : {},
+		"MIdiameter" : {},
+		"MIdepth" : {},
+		"GCIdentifier" : {},
+		"GCCalculatedLength" : {},
+		"名前" : {},
+		"diameter_mm_" : {},
+		"depth_m_" : {},
+		"valve type" : {},
+		"open close" : {},
+		"hydrant type" : {},
+		"classfication" : {},
+		"class" : {},
+		"elevation_m" : {},
+		"manhole_depth_m" : {},
+		"manhole_lowdepth_m" : {},
+		"_x" : {
+			"minimum" : 332924,
+			"maximum" : 332985
+		},
+		"_y" : {
+			"minimum" : 7394865,
+			"maximum" : 7394898
+		},
+		"_z" : {
+			"minimum" : 0,
+			"maximum" : 0
+		}
+	},
+	"geometricError" : 2.000000001862645,
+	"root" : {
+		"boundingVolume" : {
+			"region" : [ -0.8139663150809046, -0.41098969742025127, -0.8139557795775635, -0.41098423150905794, -1.6723759472370148e-5, 1.9999832781031728 ]
+		},
+		"geometricError" : 2.000000001862645,
+		"refine" : "REPLACE",
+		"content" : {
+			"boundingVolume" : {
+				"region" : [ -0.8139663150809046, -0.41098969742025127, -0.8139557795775635, -0.41098423150905794, -1.6723759472370148e-5, 1.9999832781031728 ]
+			},
+			"uri" : "data/data2.b3dm"
+		},
+		"children" : [
+			{
+				"boundingVolume" : {
+					"region" : [ -0.8139663150809046, -0.41098696446465455, -0.8139610473292341, -0.41098423150905794, -1.6723759472370148e-5, 1.9999832781031728 ]
+				},
+				"geometricError" : 0,
+				"refine" : "REPLACE",
+				"content" : {
+					"boundingVolume" : {
+						"region" : [ -0.8139663150809046, -0.4109843872977334, -0.8139661421951644, -0.41098423150905794, -1.6723759472370148e-5, 1.9999832781031728 ]
+					},
+					"uri" : "data/data0.b3dm"
+				},
+				"children" : []
+			},
+			{
+				"boundingVolume" : {
+					"region" : [ -0.8139610473292341, -0.41098969742025127, -0.8139557795775635, -0.41098696446465455, -1.6723759472370148e-5, 1.9999832762405276 ]
+				},
+				"geometricError" : 0,
+				"refine" : "REPLACE",
+				"content" : {
+					"boundingVolume" : {
+						"region" : [ -0.8139559524630687, -0.41098969742025127, -0.8139557795775635, -0.41098954163090445, -1.6723759472370148e-5, 1.9999832762405276 ]
+					},
+					"uri" : "data/data1.b3dm"
+				},
+				"children" : []
+			}
+		]
+	}
+}
