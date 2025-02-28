@@ -1,0 +1,14 @@
+{
+"name": "tiles",
+"description": "tiles",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "18",
+"center": "-77.001114,-11.599104,18",
+"bounds": "-77.137337,-11.969801,-76.371404,-11.312185",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.9.1",
+"generator_options": "tippecanoe '--output-to-directory=tiles' -z 18 -l OBJECTID -y OBJECTID /Users/shogohirasawa/Downloads/01jmbb1htn0v47b0ngyhdpwreg.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"OBJECTID\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 18, \"fields\": {\"OBJECTID\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"OBJECTID\",\"count\": 1,\"geometry\": \"LineString\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"OBJECTID\",\"count\": 1,\"type\": \"number\",\"values\": [155],\"min\": 155,\"max\": 155}]}]}}"
+}
