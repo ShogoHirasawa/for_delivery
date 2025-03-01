@@ -1,0 +1,15 @@
+{
+"name": "ccpp_afectados",
+"description": "ccpp_afectados",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "20",
+"center": "-76.789112,-11.668880,20",
+"bounds": "-76.929782,-11.699324,-76.508043,-11.393502",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.9.1",
+"generator_options": "tippecanoe -e ccpp_afectados -Z0 -z20 -l ccpp_afectados -pC /Users/shogohirasawa/Downloads/ccpp_afectados.geojson",
+"strategies": "[ { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 61 }, { \"dropped_by_rate\": 57 }, { \"dropped_by_rate\": 68 }, { \"dropped_by_rate\": 60 }, { \"dropped_by_rate\": 53 }, { \"dropped_by_rate\": 42 }, { \"dropped_by_rate\": 31 }, { \"dropped_by_rate\": 13 }, { \"dropped_by_rate\": 4 }, {  }, {  }, {  } ]",
+"json": "{\"vector_layers\": [ { \"id\": \"ccpp_afectados\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 20, \"fields\": {\"fuente\": \"String\", \"gid\": \"Number\", \"gidcuenca\": \"Number\", \"giddist\": \"Number\", \"nom_poblad\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"ccpp_afectados\",\"count\": 58,\"geometry\": \"Point\",\"attributeCount\": 5,\"attributes\": [{\"attribute\": \"fuente\",\"count\": 2,\"type\": \"string\",\"values\": [\"IGN\",\"INEI\"]},{\"attribute\": \"gid\",\"count\": 58,\"type\": \"number\",\"values\": [100086,100087,100539,101563,102023,102265,102828,103303,103378,103479,103702,104335,104415,105183,105447,105565,105724,105874,105973,105975,56860,58265,65962,74959,75918,79568,80902,81516,82447,83944,85305,85391,86161,88616,88836,89566,89619,90396,91180,91316,93321,93550,93849,94150,94612,94979,95381,95427,95580,95594,95596,95896,97881,98056,98355,98516,98547,99106],\"min\": 56860,\"max\": 105975},{\"attribute\": \"gidcuenca\",\"count\": 1,\"type\": \"number\",\"values\": [149],\"min\": 149,\"max\": 149},{\"attribute\": \"giddist\",\"count\": 4,\"type\": \"number\",\"values\": [1317,1640,1846,1850],\"min\": 1317,\"max\": 1850},{\"attribute\": \"nom_poblad\",\"count\": 58,\"type\": \"string\",\"values\": [\"ACOCHACA\",\"ACOMAYO\",\"ALCACOTO\",\"BARRIO PRIETO\",\"CANCHA\",\"CANUBO\",\"CERRO BLANCO\",\"CHAPA\",\"CHECTA\",\"COCAYALTA\",\"COPO\",\"CULLHUAY\",\"EL ALTILLO\",\"GALLARETA\",\"GATO\",\"HORNILLOS\",\"HUAHUAYOR\",\"HUALGAGAYAN\",\"HUALGAYANE\",\"HUAMANMAYO\",\"HUANCHAN\",\"HUARABI ALTO\",\"HUARABI ALTO Y BAJO\",\"HUARABI BAJO\",\"HUAYLLAPUQUIO\",\"HUERTA VIEJA\",\"HUILLCA\",\"JANSHA\",\"LA ARENA\",\"LA BANDA\",\"LA CABAÃ‘A\",\"LAGUNA\",\"LARANCOCHA\",\"LETICIA\",\"MACAS\",\"MAGDALENA\",\"MATUPAMPA\",\"MI REFUGIO\",\"MUCHACANCHA\",\"OBRAJILLO\",\"PAYPAY\",\"PUCARA\",\"QUIVES\",\"RUCUMA\",\"RUMICHACA\",\"SAN MARTIN\",\"SAN MIGUEL\",\"SANTA MARIA\",\"SANTA ROSA DE ACOCHACA\",\"SANTA ROSA DE MACAS\",\"SANTA ROSA DE QUIVES\",\"SANTO TORIBIO\",\"TAMBO DE OBRAJILLO\",\"TARAPO\",\"TUNASPAMPA\",\"UCLE\",\"YAPACOCHA\",\"ZAPAN ALTO\"]}]}]}}"
+}
