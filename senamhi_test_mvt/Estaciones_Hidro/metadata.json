@@ -1,0 +1,15 @@
+{
+"name": "Estaciones_Hidro",
+"description": "Estaciones_Hidro",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "20",
+"center": "-76.858100,-11.696400,20",
+"bounds": "-76.858100,-11.696400,-76.502500,-11.393200",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.9.1",
+"generator_options": "tippecanoe -e Estaciones_Hidro -Z0 -z20 -l Estaciones_Hidro -pC /Users/shogohirasawa/Downloads/Estaciones_Hidro.geojson",
+"strategies": "[ { \"dropped_by_rate\": 2 }, { \"dropped_by_rate\": 2 }, { \"dropped_by_rate\": 2 }, { \"dropped_by_rate\": 2 }, { \"dropped_by_rate\": 2 }, { \"dropped_by_rate\": 2 }, { \"dropped_by_rate\": 2 }, { \"dropped_by_rate\": 2 }, { \"dropped_by_rate\": 2 }, { \"dropped_by_rate\": 1 }, { \"dropped_by_rate\": 1 }, { \"dropped_by_rate\": 1 }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, {  } ]",
+"json": "{\"vector_layers\": [ { \"id\": \"Estaciones_Hidro\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 20, \"fields\": {\"Estacion\": \"String\", \"Latitud\": \"Number\", \"Longitud\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"Estaciones_Hidro\",\"count\": 3,\"geometry\": \"Point\",\"attributeCount\": 3,\"attributes\": [{\"attribute\": \"Estacion\",\"count\": 3,\"type\": \"string\",\"values\": [\"OBRAJILLO\",\"PARIACANCHA\",\"PUENTE MAGDALENA\"]},{\"attribute\": \"Latitud\",\"count\": 3,\"type\": \"number\",\"values\": [-11.3932,-11.4529,-11.6964],\"min\": -11.6964,\"max\": -11.3932},{\"attribute\": \"Longitud\",\"count\": 3,\"type\": \"number\",\"values\": [-76.5025,-76.6222,-76.8581],\"min\": -76.8581,\"max\": -76.5025}]}]}}"
+}
