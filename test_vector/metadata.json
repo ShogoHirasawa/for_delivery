@@ -1,0 +1,15 @@
+{
+"name": "./test_vector",
+"description": "./test_vector",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "20",
+"center": "139.744205,35.683374,20",
+"bounds": "139.744060,35.674926,139.763037,35.695561",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.9.1",
+"generator_options": "tippecanoe -e ./test_vector -Z0 -z20 -l test -pC test.geojson",
+"strategies": "[ { \"tiny_polygons\": 1 }, { \"tiny_polygons\": 1 }, { \"tiny_polygons\": 1 }, { \"tiny_polygons\": 1 }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, {  }, { \"tiny_polygons\": 2 }, { \"tiny_polygons\": 3 }, { \"tiny_polygons\": 6 }, { \"tiny_polygons\": 8 }, { \"tiny_polygons\": 19 } ]",
+"json": "{\"vector_layers\": [ { \"id\": \"test\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 20, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"test\",\"count\": 1,\"geometry\": \"Polygon\",\"attributeCount\": 0,\"attributes\": []}]}}"
+}
